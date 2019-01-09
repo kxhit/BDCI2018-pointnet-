@@ -1,0 +1,307 @@
+Namespace(batch_size=32, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log_final', max_epoch=3, max_loop=3, model='pointnet2_sem_seg_xyzi_final', momentum=0.9, num_point=1024, optimizer='adam', part_num=10)
+First model is ready!
+==========================================================
+loop: 0
+------------------------------------------------------------
+part: 0
+**** EPOCH 000 ****
+2018-11-12 16:10:27.190122
+ -- 100 / 3718 --
+mean loss: 10.488350
+accuracy: 0.664424
+ -- 200 / 3718 --
+mean loss: 8.272060
+accuracy: 0.728760
+ -- 300 / 3718 --
+mean loss: 7.882444
+accuracy: 0.739600
+ -- 400 / 3718 --
+mean loss: 7.817185
+accuracy: 0.739280
+ -- 500 / 3718 --
+mean loss: 7.621526
+accuracy: 0.745302
+ -- 600 / 3718 --
+mean loss: 7.414513
+accuracy: 0.753556
+ -- 700 / 3718 --
+mean loss: 7.139065
+accuracy: 0.757255
+ -- 800 / 3718 --
+mean loss: 7.278712
+accuracy: 0.755337
+ -- 900 / 3718 --
+mean loss: 7.089661
+accuracy: 0.763530
+ -- 1000 / 3718 --
+mean loss: 6.835091
+accuracy: 0.770786
+ -- 1100 / 3718 --
+mean loss: 6.701029
+accuracy: 0.774138
+ -- 1200 / 3718 --
+mean loss: 6.789668
+accuracy: 0.764494
+ -- 1300 / 3718 --
+mean loss: 6.734746
+accuracy: 0.769449
+ -- 1400 / 3718 --
+mean loss: 6.499764
+accuracy: 0.776269
+ -- 1500 / 3718 --
+mean loss: 6.350675
+accuracy: 0.785450
+ -- 1600 / 3718 --
+mean loss: 6.739771
+accuracy: 0.767180
+ -- 1700 / 3718 --
+mean loss: 6.295508
+accuracy: 0.785525
+ -- 1800 / 3718 --
+mean loss: 6.489869
+accuracy: 0.774148
+ -- 1900 / 3718 --
+mean loss: 6.423303
+accuracy: 0.777694
+ -- 2000 / 3718 --
+mean loss: 6.148570
+accuracy: 0.790121
+ -- 2100 / 3718 --
+mean loss: 6.096589
+accuracy: 0.791061
+ -- 2200 / 3718 --
+mean loss: 6.194456
+accuracy: 0.787931
+ -- 2300 / 3718 --
+mean loss: 6.312337
+accuracy: 0.784214
+ -- 2400 / 3718 --
+mean loss: 6.241995
+accuracy: 0.785872
+ -- 2500 / 3718 --
+mean loss: 6.199227
+accuracy: 0.784575
+ -- 2600 / 3718 --
+mean loss: 6.247128
+accuracy: 0.784981
+ -- 2700 / 3718 --
+mean loss: 6.138847
+accuracy: 0.787908
+ -- 2800 / 3718 --
+mean loss: 6.195709
+accuracy: 0.787916
+ -- 2900 / 3718 --
+mean loss: 6.100722
+accuracy: 0.787880
+ -- 3000 / 3718 --
+mean loss: 6.253786
+accuracy: 0.783844
+ -- 3100 / 3718 --
+mean loss: 6.008862
+accuracy: 0.793496
+ -- 3200 / 3718 --
+mean loss: 6.076122
+accuracy: 0.789879
+ -- 3300 / 3718 --
+mean loss: 6.123449
+accuracy: 0.789262
+ -- 3400 / 3718 --
+mean loss: 5.977864
+accuracy: 0.797571
+ -- 3500 / 3718 --
+mean loss: 5.901583
+accuracy: 0.796042
+ -- 3600 / 3718 --
+mean loss: 5.971870
+accuracy: 0.793973
+ -- 3700 / 3718 --
+mean loss: 5.990624
+accuracy: 0.791762
+2018-11-12 16:24:28.101522
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.017710
+eval accuracy: 0.805791
+eval avg class acc: 0.342832
+class 0 correct 10274110.000000 / 10784211.000000
+class 0 accuracy: 0.952699
+class 1 correct 103217.000000 / 330107.000000
+class 1 accuracy: 0.312677
+class 2 correct 78.000000 / 160909.000000
+class 2 accuracy: 0.000485
+class 3 correct 1878333.000000 / 2505570.000000
+class 3 accuracy: 0.749663
+class 4 correct 898607.000000 / 1552170.000000
+class 4 accuracy: 0.578936
+class 5 correct 10863.000000 / 99953.000000
+class 5 accuracy: 0.108681
+class 6 correct 0.000000 / 17780.000000
+class 6 accuracy: 0.000000
+class 7 correct 36876.000000 / 933300.000000
+class 7 accuracy: 0.039511
+class 1 IOU: 0.259648
+class 2 IOU: 0.000481
+class 3 IOU: 0.561702
+class 4 IOU: 0.493650
+class 5 IOU: 0.095294
+class 6 IOU: 0.000000
+class 7 IOU: 0.034739
+IOU eval: 0.206502
+Model best acc saved in file: log_final/best_acc_iter0_epoch_0.ckpt
+best_acc: 0.805791259765625
+Model best iou saved in file: log_final/best_iou_iter0_epoch_0.ckpt
+best_iou: 0.20650203419980634
+Model saved in file: log_final/model0.ckpt
+**** EPOCH 001 ****
+2018-11-12 16:26:03.061789
+ -- 100 / 3718 --
+mean loss: 5.955197
+accuracy: 0.794764
+ -- 200 / 3718 --
+mean loss: 5.924650
+accuracy: 0.801094
+ -- 300 / 3718 --
+mean loss: 5.960328
+accuracy: 0.797440
+ -- 400 / 3718 --
+mean loss: 5.768370
+accuracy: 0.802228
+ -- 500 / 3718 --
+mean loss: 5.888636
+accuracy: 0.794035
+ -- 600 / 3718 --
+mean loss: 5.862686
+accuracy: 0.795498
+ -- 700 / 3718 --
+mean loss: 5.792455
+accuracy: 0.802521
+ -- 800 / 3718 --
+mean loss: 5.829448
+accuracy: 0.798796
+ -- 900 / 3718 --
+mean loss: 5.755023
+accuracy: 0.802545
+ -- 1000 / 3718 --
+mean loss: 5.807278
+accuracy: 0.797529
+ -- 1100 / 3718 --
+mean loss: 5.661235
+accuracy: 0.808010
+ -- 1200 / 3718 --
+mean loss: 5.726090
+accuracy: 0.798113
+ -- 1300 / 3718 --
+mean loss: 5.634388
+accuracy: 0.807614
+ -- 1400 / 3718 --
+mean loss: 5.637214
+accuracy: 0.801140
+ -- 1500 / 3718 --
+mean loss: 5.682958
+accuracy: 0.805508
+ -- 1600 / 3718 --
+mean loss: 5.924801
+accuracy: 0.794749
+ -- 1700 / 3718 --
+mean loss: 5.671229
+accuracy: 0.806833
+ -- 1800 / 3718 --
+mean loss: 5.579846
+accuracy: 0.808978
+ -- 1900 / 3718 --
+mean loss: 5.700988
+accuracy: 0.803516
+ -- 2000 / 3718 --
+mean loss: 5.616608
+accuracy: 0.803454
+ -- 2100 / 3718 --
+mean loss: 5.670303
+accuracy: 0.805198
+ -- 2200 / 3718 --
+mean loss: 5.650345
+accuracy: 0.805290
+ -- 2300 / 3718 --
+mean loss: 5.641663
+accuracy: 0.806344
+ -- 2400 / 3718 --
+mean loss: 5.469896
+accuracy: 0.807711
+ -- 2500 / 3718 --
+mean loss: 5.490587
+accuracy: 0.813696
+ -- 2600 / 3718 --
+mean loss: 5.451500
+accuracy: 0.810860
+ -- 2700 / 3718 --
+mean loss: 5.388250
+accuracy: 0.814231
+ -- 2800 / 3718 --
+mean loss: 5.504677
+accuracy: 0.811349
+ -- 2900 / 3718 --
+mean loss: 5.542138
+accuracy: 0.805665
+ -- 3000 / 3718 --
+mean loss: 5.318248
+accuracy: 0.817024
+ -- 3100 / 3718 --
+mean loss: 5.413436
+accuracy: 0.812701
+ -- 3200 / 3718 --
+mean loss: 5.338757
+accuracy: 0.817035
+ -- 3300 / 3718 --
+mean loss: 5.212962
+accuracy: 0.819850
+ -- 3400 / 3718 --
+mean loss: 5.448458
+accuracy: 0.812372
+ -- 3500 / 3718 --
+mean loss: 5.461506
+accuracy: 0.812718
+ -- 3600 / 3718 --
+mean loss: 5.500828
+accuracy: 0.808768
+ -- 3700 / 3718 --
+mean loss: 5.450170
+accuracy: 0.812870
+**** EPOCH 002 ****
+2018-11-12 16:39:46.170186
+ -- 100 / 3718 --
+mean loss: 5.111043
+accuracy: 0.823009
+ -- 200 / 3718 --
+mean loss: 5.188014
+accuracy: 0.821280
+ -- 300 / 3718 --
+mean loss: 5.311471
+accuracy: 0.817382
+ -- 400 / 3718 --
+mean loss: 5.047079
+accuracy: 0.825603
+ -- 500 / 3718 --
+mean loss: 5.239460
+accuracy: 0.820248
+ -- 600 / 3718 --
+mean loss: 5.350295
+accuracy: 0.812633
+ -- 700 / 3718 --
+mean loss: 5.099678
+accuracy: 0.825016
+ -- 800 / 3718 --
+mean loss: 5.230511
+accuracy: 0.820493
+ -- 900 / 3718 --
+mean loss: 5.084672
+accuracy: 0.827611
+ -- 1000 / 3718 --
+mean loss: 5.422778
+accuracy: 0.813265
+ -- 1100 / 3718 --
+mean loss: 5.305276
+accuracy: 0.812378
+ -- 1200 / 3718 --
+mean loss: 5.278640
+accuracy: 0.815866
+ -- 1300 / 3718 --
+mean loss: 5.185295
+accuracy: 0.819320

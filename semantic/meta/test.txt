@@ -1,0 +1,6 @@
+/media/data/csc105/孔/单帧/cloud100_cluster.txt
+/media/data/csc105/孔/单帧/cloud243_cluster.txt
+/media/data/csc105/孔/单帧/cloud564_cluster.txt
+/media/data/csc105/孔/单帧/cloud907_cluster.txt
+/media/data/csc105/孔/单帧/cloud4300_cluster.txt
+/media/data/csc105/孔/单帧/cloud7772_cluster.txt

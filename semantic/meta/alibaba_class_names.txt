@@ -1,0 +1,8 @@
+DontCare
+cyclist
+tricycle
+sm allMot
+bigMot
+pedestrian
+crowds
+unknown
