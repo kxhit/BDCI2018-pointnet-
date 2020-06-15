@@ -1,18 +1,18 @@
-##Implementation on 3D LIDAR Point Cloud Semantic Segmentation Based on PointNet++
+**Implementation on 3D LIDAR Point Cloud Semantic Segmentation Based on PointNet++**
 
-<font color="#dd0000">Notice：This repository is no longer maintained. It's a naive try by dividing scenes into grids and applying pointnet++.</font><br /> 
+_Notice：This repository is no longer maintained. It's a naive try by dividing scenes into grids and applying pointnet++._
 
-By Xin Kong, Baoquan Zhong, Chang Zhou from CSC of Zhejiang University.
-This is the implementation of  [BDCI2018-自动驾驶三维点云分割](https://www.datafountain.cn/competitions/314/details/rule). (Team name: 试一下pointnet)
-Our final IoU is around **0.19717355**, and the time consuming is around **4 sec/per frame**.
+By Xin Kong, Baoquan Zhong, Chang Zhou from CSC of Zhejiang University in Nov. 2018.  
+This is the implementation of  [BDCI2018-自动驾驶三维点云分割](https://www.datafountain.cn/competitions/314/details/rule). (Team name: 试一下pointnet)  
+Our final IoU is around **0.19717355**, and the time consuming is around **4 sec/per frame**.  
 Please contact <xinkong@zju.edu.cn>  
 
-## Recommend configuration
-###Hardware  
+**Recommend configuration** 
+***Hardware***
 CPU: i7 (Tested on i7-7700)
 GPU: Geforce 1080ti or higher (Tested on TITAN XP)
 RAM: Greater than 16G (Tested with 32G)
-###Software  
+***Software***  
 The code has been tested with Python 3.5, TensorFlow 1.11.0, CUDA 9.0  on Ubuntu 16.04.
 
 ## Prepare  
