@@ -4,7 +4,7 @@ _Notice：This repository is no longer maintained. It's a naive try by dividing 
 
 By Xin Kong, Baoquan Zhong, Chang Zhou from CSC of Zhejiang University in Nov. 2018.  
 This is the implementation of  [BDCI2018-自动驾驶三维点云分割](https://www.datafountain.cn/competitions/314/details/rule). (Team name: 试一下pointnet)  
-Our final IoU is around **0.19717355**, and the time consuming is around **4 sec/per frame**.  
+Our final ranking is **9th / 1408**. The final IoU is around **0.19717355**, and the time consuming is around **4 sec/per frame**.  
 Please contact <xinkong@zju.edu.cn>  
 
 **Recommend configuration**   
